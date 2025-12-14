@@ -4,7 +4,7 @@
 
 This repository provides the ROS 2 nodes to autonomously control a tugbot in a warehouse in a virtual environment. 
 The ROS 2 Driver node utilizes the robot’s yaw and Cartesian position to continuously adjust its linear and angular velocity. 
-Moreover, there's a Velodyne LiDAR mounted on the tugbot, but the Driver node considers only the sensor's data in the X and Y dimensions. 
+Moreover, there's a Velodyne LiDAR that's mounted on the tugbot, but the Driver node considers only the sensor's data in the X and Y dimensions. 
 
 ## Software Setup
 
