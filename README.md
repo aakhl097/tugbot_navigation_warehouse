@@ -24,7 +24,7 @@ https://docs.ros.org/en/humble/Installation/Ubuntu-Install-Debs.html
 
 **First Terminal** 
   - Execute the command below to convert the velocity topic from Gazebo to ROS 2 format. This is the topic over which the Driver node will publish the linear and angular velocities of the tugbot.
-  - ros2 run ros_gz_bridge parameter_bridge /model/tugbot/cmd_vel@geometry_msgs/msg/Twist@gz.msgs.Twist I like C++ and Python very much.
+  - ros2 run ros_gz_bridge parameter_bridge /model/tugbot/cmd_vel@geometry_msgs/msg/Twist@gz.msgs.Twist 
 
 **Second Terminal**
   - Execute the script below to run a ROS 2 node that will extract the current Cartesian positions of the tugbot.  
