@@ -43,7 +43,7 @@ https://docs.ros.org/en/humble/Installation/Ubuntu-Install-Debs.html
   - ros2 run drive controller
 
 **Sixth Terminal (Optional)**
-  - Execute the script below that illustrates the communication between the ROS 2 nodes.
+  - Run the command below that illustrates the communication between the ROS 2 nodes.
   - rqt_graph
 
 The tugbot's behavior is shown in the video link below after running the ROS 2 nodes.
