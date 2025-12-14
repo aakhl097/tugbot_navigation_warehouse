@@ -39,7 +39,7 @@ https://docs.ros.org/en/humble/Installation/Ubuntu-Install-Debs.html
   - python3 lidar_bridged.py
 
 **Fifth Terminal**
-  - Execute the script below to run the driver node.
+  - Execute the script below to run the ROS 2 Driver node.
   - ros2 run drive controller
 
 **Sixth Terminal (Optional)**
